@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphAssesment.WebService", "GraphAssesment.WebService\GraphAssesment.WebService.csproj", "{4B4A0847-2596-48BA-AC15-20FC8B00F00F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{2A856ADB-AE3C-4791-9E4F-F4A4AD093883}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{60EA6929-089D-4F6A-83B0-1BDD37FCC61F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{0B44F6A1-2235-43A7-8674-9923BE617FC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A23B0382-4A0B-4A09-B948-A11E1983E610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphAssesment.DataLoader", "GraphAssesment.DataLoader\GraphAssesment.DataLoader.csproj", "{AA384B90-F907-4C7A-B1AB-9FB279B1F730}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphAssesment.Client", "UI\GraphAssesment.Client\GraphAssesment.Client.csproj", "{8C1B87C3-F3AB-47BB-9156-FB79CDAD2DDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphAssesment.Infrastructure.Mongo", "Infrastructure\GraphAssesment.Infrastructure.Mongo\GraphAssesment.Infrastructure.Mongo.csproj", "{01CD590B-225B-423E-A580-02A60B2CCB98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphAssesment.Application.DataLoader", "Application\GraphAssesment.Application.DataLoader\GraphAssesment.Application.DataLoader.csproj", "{9EE24555-7F7B-4F80-83AA-126316DB74D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphAssesment.Infrastructure.File", "Infrastructure\GraphAssesment.Infrastructure.File\GraphAssesment.Infrastructure.File.csproj", "{40567C0F-92BB-4218-AEED-9BAFF8F6E2AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphAssesment.Domain", "Domain\GraphAssesment.Domain\GraphAssesment.Domain.csproj", "{336D3686-7D50-48EA-B845-E6665BB59369}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphAssesment.Application.WebService", "Application\GraphAssesment.Application.WebService\GraphAssesment.Application.WebService.csproj", "{BF40DF97-AF72-4E0C-A73D-0B3D255DADBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B4A0847-2596-48BA-AC15-20FC8B00F00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B4A0847-2596-48BA-AC15-20FC8B00F00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B4A0847-2596-48BA-AC15-20FC8B00F00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B4A0847-2596-48BA-AC15-20FC8B00F00F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA384B90-F907-4C7A-B1AB-9FB279B1F730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA384B90-F907-4C7A-B1AB-9FB279B1F730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA384B90-F907-4C7A-B1AB-9FB279B1F730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA384B90-F907-4C7A-B1AB-9FB279B1F730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C1B87C3-F3AB-47BB-9156-FB79CDAD2DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1B87C3-F3AB-47BB-9156-FB79CDAD2DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C1B87C3-F3AB-47BB-9156-FB79CDAD2DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1B87C3-F3AB-47BB-9156-FB79CDAD2DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CD590B-225B-423E-A580-02A60B2CCB98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CD590B-225B-423E-A580-02A60B2CCB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CD590B-225B-423E-A580-02A60B2CCB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CD590B-225B-423E-A580-02A60B2CCB98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE24555-7F7B-4F80-83AA-126316DB74D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE24555-7F7B-4F80-83AA-126316DB74D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE24555-7F7B-4F80-83AA-126316DB74D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE24555-7F7B-4F80-83AA-126316DB74D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40567C0F-92BB-4218-AEED-9BAFF8F6E2AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40567C0F-92BB-4218-AEED-9BAFF8F6E2AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40567C0F-92BB-4218-AEED-9BAFF8F6E2AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40567C0F-92BB-4218-AEED-9BAFF8F6E2AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336D3686-7D50-48EA-B845-E6665BB59369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336D3686-7D50-48EA-B845-E6665BB59369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336D3686-7D50-48EA-B845-E6665BB59369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336D3686-7D50-48EA-B845-E6665BB59369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF40DF97-AF72-4E0C-A73D-0B3D255DADBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF40DF97-AF72-4E0C-A73D-0B3D255DADBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF40DF97-AF72-4E0C-A73D-0B3D255DADBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF40DF97-AF72-4E0C-A73D-0B3D255DADBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B4A0847-2596-48BA-AC15-20FC8B00F00F} = {2A856ADB-AE3C-4791-9E4F-F4A4AD093883}
+		{AA384B90-F907-4C7A-B1AB-9FB279B1F730} = {2A856ADB-AE3C-4791-9E4F-F4A4AD093883}
+		{8C1B87C3-F3AB-47BB-9156-FB79CDAD2DDA} = {2A856ADB-AE3C-4791-9E4F-F4A4AD093883}
+		{01CD590B-225B-423E-A580-02A60B2CCB98} = {A23B0382-4A0B-4A09-B948-A11E1983E610}
+		{9EE24555-7F7B-4F80-83AA-126316DB74D1} = {0B44F6A1-2235-43A7-8674-9923BE617FC4}
+		{40567C0F-92BB-4218-AEED-9BAFF8F6E2AE} = {A23B0382-4A0B-4A09-B948-A11E1983E610}
+		{336D3686-7D50-48EA-B845-E6665BB59369} = {60EA6929-089D-4F6A-83B0-1BDD37FCC61F}
+		{BF40DF97-AF72-4E0C-A73D-0B3D255DADBF} = {0B44F6A1-2235-43A7-8674-9923BE617FC4}
+	EndGlobalSection
+EndGlobal
